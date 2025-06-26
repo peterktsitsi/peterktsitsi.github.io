@@ -37,7 +37,12 @@ jobs:
       - name: Build site
         run: pnpm run build
         
-          
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: astro-site-dist
+          path: dist/
+  
           # path: . # The root location of your Astro project inside the repository. (optional)
           # node-version: 20 # The specific version of Node that should be used to build your site. Defaults to 20. (optional)
           #package-manager: pnpm@latest # The Node package manager that should be used to install dependencies and build your site. Automatically detected based on your lockfile. (optional)
@@ -52,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
