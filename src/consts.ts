@@ -4,7 +4,7 @@ import type { Site, Page, Links, Socials } from "@types"
 export const SITE: Site = {
   TITLE: "Peter's Portfolio",
   DESCRIPTION: "Welcome to my site, a portfolio and blog for anyone interested in programming and design",
-  AUTHOR: "Peter",
+  AUTHOR: "Peter k Tsitsi",
 }
 
 // Work Page
@@ -56,19 +56,19 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "Kpetertsitsi@gmail.com",
+    TEXT: "Click to connect",
     HREF: "mailto:kpetertsitsi@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "My Github",
+    TEXT: "Visit my github",
     HREF: "https://github.com/peterktsi"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
+    TEXT: "Visit my Linked-in",
     HREF: "https://www.linkedin.com/in/peter-tsitsi-643123298/",
   },
   

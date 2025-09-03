@@ -23,7 +23,7 @@ export const SOCIALS: Socials = [
     TEXT: "peterktsitsi",
     HREF: "https://github.com/peterktsitsi"
   },
-]
+ ]
 ```
 
 | Field | Type | Required | Description |
