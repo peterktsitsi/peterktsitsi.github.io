@@ -84,4 +84,4 @@ repoUrl: https://github.com/markhorn-dev/astro-sphere
 ```
 
 ### Write your content
-You've made it this far, all that is left to do is write your content beneath the frontmatter. Writing markdown will be covered in the next article.
+You've made it this far, all that is left to do is write your content beneath the frontmatter. Writing markdown will be covered in the next article. new stuff.
