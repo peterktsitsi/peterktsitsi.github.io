@@ -1,7 +1,7 @@
 ---
-title: "Astro Sphere: Adding a new post or project."
-summary: "Adding a new article (blog post or project) is pretty easy."
-date: "Mar 14 2024"
+title: "The programming iceburg"
+summary: "The deeper you the hair trimming you are gonna do"
+date: "Mar 14 2025"
 draft: false
 tags:
 - Tutorial
