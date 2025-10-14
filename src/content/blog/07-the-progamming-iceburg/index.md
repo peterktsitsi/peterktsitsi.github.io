@@ -1,6 +1,6 @@
 ---
 title: "The programming iceburg"
-summary: "The deeper you the hair trimming you are gonna do"
+summary: "How data and databases shape and improve our lives."
 date: "Mar 14 2025"
 draft: false
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 ### Basics
 
-Create a folder in the respective collection you wish to create content. The name of the folder will be the slug in which your content will be found.
+Data, the pixels of reality, or   something.
 
 ```text
 creating the following

@@ -1,7 +1,7 @@
 ---
-title: "Project Four"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 15 2022"
+title: "Intro to Visual Communication"
+summary: "Creating an indivisual who can use hand made art and computer assissted designs to visually communicate."
+date: "Mar 15 2025"
 draft: false
 tags:
 - React

@@ -1,7 +1,7 @@
 ---
-title: "Project One"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 18 2022"
+title: "Updating the orbit tvet college website"
+summary: "The oldest and crustiest website you have ever seen in your life bro..."
+date: "Sep 18 2025"
 draft: false
 tags:
 - Astro
