@@ -32,11 +32,16 @@ function formatWorkDate(input: Date | string) {
   <TopLayout>
     <div class="animate page-heading">
       {WORK.TITLE}
-      <p>This is my work experience, I started off as a Graphic Designer and </p>
     </div>
+    
   </TopLayout>
+  
   <BottomLayout>
+    <p class="animate pb-8">
+      Some work experience, but before we talk about that here are some products to help you get an understanding of what I can do for you.
+    </p>
     <ul>
+      
       { 
         work.map((entry) => (
           <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">

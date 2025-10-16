@@ -1,6 +1,6 @@
 ---
-title: "Intro to Visual Communication part 2"
-summary: "Learning how information design principles can be applied to viusal presentations"
+title: "Visual Communication 102"
+summary: "How information design principles can be applied to viusal presentations"
 date: "Mar 16 2025"
 draft: false
 tags:

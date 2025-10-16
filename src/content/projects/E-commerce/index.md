@@ -1,7 +1,7 @@
 ---
-title: "Project Two"
-summary: "Lorem ipsum dolor sit amet"
-date: "Mar 17 2022"
+title: "E-commerce template"
+summary: "Design system for e-commerce templates"
+date: "Mar 17 2025"
 draft: false
 tags:
 - Svelte
