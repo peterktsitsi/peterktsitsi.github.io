@@ -2,7 +2,7 @@
 title: "Astro Sphere: Getting Started"
 summary: "You've downloaded and installed the project. Let's hit the ground running."
 date: "Mar 16 2024"
-draft: true
+draft: false
 tags:
 - Tutorial
 - Astro
@@ -18,7 +18,7 @@ configuring the site and make it personal.
 //astro.config.mjs
 
 export default defineConfig({
-  site: "https://astro-sphere.vercel.app", // your domain here
+  site: "https://peterktsitsi.github.io", // your domain here
   integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
 })
 ```
@@ -31,7 +31,7 @@ export default defineConfig({
 export const SITE: Site = {
   TITLE: "Astro Sphere",
   DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
-  AUTHOR: "Mark Horn",
+  AUTHOR: "Peter K Tsitsi",
 }
 ```
 
@@ -76,8 +76,8 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "peter's portfolio",
+    HREF: "https://github.com/petektsitsi"
   },
 ]
 ```
