@@ -41,4 +41,5 @@ Project Brief, Audit then Defining Scope. Before we create a solution for any pr
   - brand kit
   - website
   - ux refresh
+  - increased brand reconition and user interaction  - 
   - people liking what they see ***wink wink***
