@@ -7,9 +7,7 @@ tags:
 - web design
 - Web Development
 - Orbit Tvet college
-- Tailwind
-- SolidJs
-demoUrl: https://webflow.com
+DemoUrl: https://webflow.com/
 siteUrl: https://Orbittvetcollege.com
 repoUrl: https://github.com/peterktsitsi
 ---
