@@ -12,7 +12,7 @@ siteUrl: https://Orbittvetcollege.com
 repoUrl: https://github.com/peterktsitsi
 ---
 
-Before we get started note that this is a demo project, and Orbit college has not sign off on this. It is  just a way of showing off my design process.
+Before we get started note that this is a demo project, and Orbit college has not sign off on this. It is  just a way of showing off my design process. Normally this process is much more extensive, like 15 steps, but for readability sake, I summarised it alot.
 
 ![orbit website homepage](/orbit%20homepage.jpg)
 
@@ -22,11 +22,11 @@ Before we get started note that this is a demo project, and Orbit college has no
 
 **Goal:** The Orbit TVET college is in need of a Brand and Digital UX refresh.
 This document contains the design process of how the solution was created.
-Each section outlines how and why I do what I do, then there's a solution linked beloew, screenshot or design file or website...
+Each section outlines how and why I do what I do, then there's a solution linked below, screenshots or design files or the website...
 
 ### Steps
 
-- [ ] Define objectives - *Fix website, Refresh Visual Elements*
+- [ ] Define objectives - *Fix website, Refresh Visual Elements for better communication*
 - [ ] Identify success metrics (KPIs).
 - [ ] Note scope & constraints - *TBD*
 - [ ] Identify stakeholders & decision-makers. - *Orbit College: ,*
@@ -34,7 +34,7 @@ Each section outlines how and why I do what I do, then there's a solution linked
 
 ### Deliverables
 
-- One-page Project Brief (objective, KPIs, scope, stakeholders).
+- One-page Project Brief (objective, KPIs, scope, stakeholders)...[link.to.doc]
 
 ### Roles
 
@@ -42,7 +42,7 @@ Each section outlines how and why I do what I do, then there's a solution linked
   
 ## 2. 🔍 Discovery & Audit
 
-**Goal:** Understand current site performance, visual design and user needs.
+**Goal:** Understand current site performance, visual design and user experience pain points.
 
 ### Steps, again
 
@@ -71,7 +71,7 @@ Each section outlines how and why I do what I do, then there's a solution linked
 - [ ] Assign content owners & deadlines
 - [ ] Map user journeys and CTAs
 - [ ] Update Visual elements
-- [ ] Update Photofraphy
+- [ ] Update Photography
 
 ### Deliverables
 
