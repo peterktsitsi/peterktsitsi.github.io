@@ -18,8 +18,6 @@ Before we get started note that this is a demo project, and Orbit college has no
 
 ## 1. 📝 Project Brief (Kickoff)
 
-<mark>*note: this is a long-ish project, I've summerized as best I can.* </mark>
-
 **Goal:** The Orbit TVET college is in need of a Brand and Digital UX refresh.
 This document contains the design process of how the solution was created.
 Each section outlines how and why I do what I do, then there's a solution linked below, screenshots or design files or the website...

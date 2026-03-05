@@ -2,7 +2,7 @@
 company: "Freelance"
 role: "Web Developer"
 dateStart: "01/02/2023"
-dateEnd: "06/02/2024"
+dateEnd: ""
 ---
 
 Role:
@@ -12,13 +12,14 @@ built.
 
 Responsibilities:
 
-- strategize, understand client and project needs and explore
-solutions.
-- design, create project documentation for proposed solutions.
-- develop, create web elements/sites according to design spec.
-- deploy, after testing and create post launch maintenance plan.
+- Source clients, conduct an audit and create a pitch, with potential fixes and strategy(business/content).
+- Create Project documentation, conduct extensive content, assets and branding audit. Prepare Design process.
+- Design and explore solutions for audit findings, create prototypes and settle on a strategy.
+- Develop visual assets, finalise content, create final web site and conduct qa testing before launch.
+- Deploy, monitor and provide support. Handover Assets and final training.
   
 Tools:
 
 - Figma, Canva, Webflow and WordPress
 - html, css, javascript, jquerey and php
+- Sql, MySql, Firebase
