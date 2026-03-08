@@ -7,14 +7,14 @@ tags:
 - web design
 - Web Development
 - Orbit Tvet college
-DemoUrl: https://webflow.com/
+demoUrl: https://webflow.com/
 siteUrl: https://Orbittvetcollege.com
 repoUrl: https://github.com/peterktsitsi
 ---
 
 Before we get started note that this is a demo project, and Orbit college has not sign off on this. It is  just a way of showing off my design process. Normally this process is much more extensive, like 15 steps, but for readability sake, I summarised it alot.
 
-![orbit website homepage](/orbit%20homepage.jpg)
+![orbit website homepage](/screencapture-orbitcollege-co-za-2026-03-06-12_57_42.png)
 
 ## 1. 📝 Project Brief (Kickoff)
 
@@ -33,10 +33,6 @@ Each section outlines how and why I do what I do, then there's a solution linked
 ### Deliverables
 
 - One-page Project Brief (objective, KPIs, scope, stakeholders)...[link.to.doc]
-
-### Roles
-
-- Product Owner / PM / Designer.
   
 ## 2. 🔍 Discovery & Audit
 

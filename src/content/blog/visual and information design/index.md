@@ -1,12 +1,13 @@
 ---
-title: "Visual Communication 101"
-summary: "Understanding visual communications, its function and history."
+title: "Visual and information design course 101"
+summary: "Understanding visuals elements and information is structured for human consumption."
 date: "Mar 15 2025"
 draft: false
 tags:
-- React
-- Javascript
-- StyleX
+- Graphic Design
+- Canva
+- Information Design
+- Information Sourcing
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium.
