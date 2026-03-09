@@ -2,7 +2,7 @@
 title: "Visual and information design course 101"
 summary: "Understanding visuals elements and information is structured for human consumption."
 date: "Mar 15 2025"
-draft: false
+draft: true
 tags:
 - Graphic Design
 - Canva
