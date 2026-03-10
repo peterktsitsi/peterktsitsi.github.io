@@ -131,11 +131,11 @@ That problem led to the creation of the **web**.
 
 ### Objective
 
-Practice **structuring information clearly** before writing any code.
+For this project you'll be practicing the most basic skill in information design... **Compiling** and **summarising information**.
+You will be writing 2 essays.<br>
 
-This exercise teaches students how to **organize information logically**, which is a core skill in both design and software engineering. You are to create a multi page html site, containing an about you and project page.
-
-*you know what, the rest is in my git hub, just go to: ([click meeeee](https://github.com/peterktsitsi/web-development-and-information-design))*
+- Topic 1: how the web works.
+- Topic 2: From Data to information to action.
 
 ## Project 1B: Introduction to Web Development
 
@@ -145,13 +145,16 @@ Build a simple site, that will hold all the informaton you gathered in project 1
  and use it as a way to practice structuring information on the web, 
  and how to use basic web technologies to do so.
 
+The rest of the instructions are on github, just go to:
+ ([Module 1](hhttps://github.com/peterktsitsi/web-development-and-information-design/blob/main/README.md#module-1-introduction-to-information-design-and-web-development))
+
 ---
 
-## Module 2: Styling and Layout: CSS and Design Systems
+## Module 2: Introduction to Design Systems: CSS
 
 ---
 
-### Part 1: Information Design — Restructuring Information Using Design Systems
+### Part 1: Information Design: Restructuring Information Using Design Systems
 
 As information systems grow larger, the amount of data and content they contain increases rapidly. Without structure, this information becomes difficult to navigate, understand, and maintain.
 
@@ -161,6 +164,8 @@ A design system is a collection of rules, patterns, and reusable components used
 
 Instead of designing each page or interface from scratch, designers and developers use a **shared set of structures and components**.
 
+This is also true outside of sofware developemnt, weather creating a textbook or designing **catagorization systems** for storing 1000s of books.
+
 Examples include:
 
 - layout grids
@@ -169,13 +174,13 @@ Examples include:
 - reusable UI components
 - navigation patterns
 
-These systems ensure that information is **presented consistently and predictably** across an application.
+These systems ensure that information is **presented consistently and predictably** across an application and other mediums of information consumption.
 
 ---
 
 ### Why Design Systems Matter
 
-In small projects, information structures can be simple. But as systems grow, complexity increases.
+In small projects, information structures can be simple. But as systems grow, the people involved change and complexity increases it becomes hard to maintain **consistancy** and **functionality** for the end user.
 
 Examples of large information systems include:
 
@@ -191,6 +196,7 @@ Without a system for organizing visual and structural elements:
 - users struggle to navigate
 - development becomes slower
 - teams repeat the same work
+- real money can be lost. *'is it the green button'* moments
 
 Design systems allow teams to **scale both design and development**.
 
@@ -249,22 +255,21 @@ Instead of reading hundreds of pages about programming, a learner might first st
 
 ---
 
-### Part 2: Design Systems and Software Development
+### Part 2: Design Systems for Web Based Systems
 
-In software engineering, design systems help developers organize interfaces in a way that mirrors how data and information are structured internally.
+#### Introduction
 
-| System Layer | Example |
-|--------------|--------|
-| Data | Database tables |
-| Logic | Application code |
-| Information | Structured UI components |
-| Interface | Layout and visual presentation |
+In software engineering whether for the **Web** or **Mobile**, design systems help developers organize, not just the **information** but the interface **properties**, **decicions** and **elements** that make up the final application.
 
-When these layers align, software becomes easier to build, maintain, and use.
+On a deeper level the informatoin being presented and how users interact with it, will be the thing that drives how you create these systems. You can't design a School Website the same way you make a Private messaging services
 
-This is why modern development teams often maintain **shared design systems and component libraries**.
+For the web, which relies on the **htlm document** and the **box model**, being styled by **CSS** .
+Think of it like this:
 
-These allow developers to reuse interface patterns instead of constantly reinventing them.
+- the html document is an information delivery device, with rules on how you can interact with it.
+- the box model, separates everything(**elements**) on this document into boxes with **properties** that can be issolated and controlled.
+- to expand the visual presentation options a way to control these **properties** was made... **CSS**
+- **CSS** tells your browser what you want your html to look like.
 
 ---
 
@@ -293,20 +298,12 @@ Frameworks such as Tailwind CSS help developers apply these patterns consistentl
 
 ---
 
-## Project 2A: Information Restructuring
+## Project 2A: Your fisrt Design System
 
 ### Objective
 
-Practice summarizing and restructuring information using visual and structural design techniques.
-
-Students will take a large block of text or notes and transform it into a structured format such as:
-
-- a diagram
-- a summary page
-- a structured outline
-- a simple dashboard
-
-The goal is to practice **turning raw information into structured knowledge**.
+Identify a Website you like, and deconstruct the design system of the website.<br>
+Create a variation of that **Design System** that is to be applied on your site from **Project 1B**.<br>
 
 ---
 
@@ -314,15 +311,8 @@ The goal is to practice **turning raw information into structured knowledge**.
 
 ### Objective
 
-Use CSS to create structured layouts that communicate information clearly.
+Edit your Website according to the **Design Document** from **Project 2A**.<br>
+***good luck***
 
-Students will take the HTML site created in **Project 1B** and improve its layout using CSS.
-
-Focus areas:
-
-- page structure
-- typography hierarchy
-- spacing and readability
-- navigation design
-
-The goal is to transform a **basic document into a well-structured web interface**.
+The rest of the instructions are on github, just go to:
+ ([Module 2](https://github.com/peterktsitsi/web-development-and-information-design/blob/main/README.md#module-2-introduction-to-design-systems-css))
