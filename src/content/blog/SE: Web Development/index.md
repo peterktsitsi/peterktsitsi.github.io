@@ -124,6 +124,74 @@ But there was still one problem:
 > Computers could not easily share documents globally.
 
 That problem led to the creation of the **web**.
+---
+
+### Part 2: How the Web works
+
+At its core, the web is a **global system for sharing documents**. When you visit a website, your browser is usually requesting one thing first:
+**an HTML document.**
+Everything else on the page (images, styling, interactivity) is built around this document. 
+
+---
+
+#### The Request
+
+When a user enters a website address in a browser, the browser sends a request to a **web server**.
+
+Example:
+
+- https://example.com
+- The browser asks the server:
+
+> “Please send me the document for this page.”
+
+- The server responds by sending back an **HTML file**.
+
+We will get more indepth into the backend process later when we are doing some **JavaScrip**.
+
+---
+
+#### The HTML Document
+
+The HTML document is the **foundation of every webpage**, and everything on a webpage is a **Box**, this **Box Model** is very important as it will guide the decicions you make when **styling and organising**S information on this document.
+It defines the **structure of the information** on the page using tags to describe parts of the document.
+
+#### What the Browser Does
+
+When the browser receives the HTML file it:
+
+- Reads the document from top to bottom
+- Understands the structure defined by the tags
+- Builds a visual representation of the page
+- Displays the page to the user
+ 
+The browser is essentially a document viewer for HTML.
+Structure vs Appearance
+**HTML does not control design.**
+**HTML only defines structure.**
+
+Examples of structure:
+
+- headings
+- paragraphs
+- lists
+- links
+- images
+- sections
+- tables
+
+In this course we begin with **HTML** only, because understanding document structure is the foundation of the web.
+The Web as a Document System, that has a design systems on top **CSS** and an interactive layer on top of that **usually JavaScript**
+
+Even modern web applications like **google sheets** or **youtube** still start with this same idea: a structured document sent from a server to a browser and rendered out.
+
+Understanding the HTML document helps developers understand:
+
+- how information is structured
+- how browsers interpret pages
+- how websites deliver content
+
+This is why HTML is the first technology every web developer learns. But keep in mind that this is also and informaton delivery system, *more on this later*
 
 ---
 
@@ -142,8 +210,8 @@ You will be writing 2 essays.<br>
 ### Objective
 
 Build a simple site, that will hold all the informaton you gathered in project 1A,
- and use it as a way to practice structuring information on the web, 
- and how to use basic web technologies to do so.
+and use it as a way to practice structuring information on the web, 
+and how to use basic web technologies to do so.
 
 The rest of the instructions are on github, just go to:
  ([Module 1](hhttps://github.com/peterktsitsi/web-development-and-information-design/blob/main/README.md#module-1-introduction-to-information-design-and-web-development))
@@ -268,16 +336,14 @@ Think of it like this:
 
 - the html document is an information delivery device, with rules on how you can interact with it.
 - the box model, separates everything(**elements**) on this document into boxes with **properties** that can be issolated and controlled.
-- to expand the visual presentation options a way to control these **properties** was made... **CSS**
+- to expand the visual presentation options of these documents a way to control these **properties** was made... **CSS**
 - **CSS** tells your browser what you want your html to look like.
 
 ---
 
 ### CSS as a Tool for Information Structure
 
-CSS (Cascading Style Sheets) is the technology used to control the **layout and visual presentation of web documents**.
-
-While HTML defines the **structure of information**, CSS defines how that information is **organized visually on the screen**.
+The rules from your **Project  2A** design system will be used to define the **CSS** you are to use. Though you are going to use other technologies to help speed up the process of  styling you web documents or applications.
 
 CSS allows developers to:
 
@@ -289,12 +355,9 @@ CSS allows developers to:
 
 Modern CSS systems often rely on:
 
-- layout grids
-- spacing scales
-- typography systems
-- component styles
+- layout grids, spacing scales, typography systems and component styles, which is driven buy the 
 
-Frameworks such as Tailwind CSS help developers apply these patterns consistently.
+Frameworks such as Tailwind CSS help developers apply these patterns consistently, faster and more conviently. You are going to work with **CSS** to style your website.
 
 ---
 
@@ -316,3 +379,37 @@ Edit your Website according to the **Design Document** from **Project 2A**.<br>
 
 The rest of the instructions are on github, just go to:
  ([Module 2](https://github.com/peterktsitsi/web-development-and-information-design/blob/main/README.md#module-2-introduction-to-design-systems-css))
+
+---
+
+## Module 3: Introduction to Learning System and Programming
+
+---
+
+### Part 1: Introduction to Learning Systems
+
+Simply: **A learning system is a structured environment that guides someone from not knowing something to understanding it.**<br>
+
+To keep this brief, learning **Programming** is not easy, but with a good **Learning System** it can become less difficult. When you are learning something, how you order your note is very important, and since programming is a very **Reference dependent** skill, ordering you notes in a way that adds friction can be problamatic.
+
+An example:
+
+- You, a developer have to learn a new programming language, like **Rust**
+- You go to the docs and you find a page about some new feature
+- You navigate to the actual documentation
+- now you have to pick, learn by doin or read the docs
+- now you go to the docs, first 3 pages, housekeeping, install this, install that
+- now final you can read the reference
+- guess what? **Every concept has its own page**
+  
+*say hello to friction*
+
+![stressed_out](/public/oppenheimer-cillian-murphy.gif)
+
+It should be alot easier than this right?<br>
+Why, yes, yes it should, and a **Learning System** can help with that which we will learn... now using: **The Infinite Canvas**.<br>
+Download excalidraw.
+
+#### Your First Learning System: Creating a Programming reference sheet.
+
+Because reference sheets have typically consisted of a scatter list of related information, learning programming has become *tidious*. If I have to navigate to another page just to see how loops are structured, I'm going to lose it.<br>
