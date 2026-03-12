@@ -214,7 +214,7 @@ and use it as a way to practice structuring information on the web,
 and how to use basic web technologies to do so.
 
 The rest of the instructions are on github, just go to:
- ([Module 1](hhttps://github.com/peterktsitsi/web-development-and-information-design/blob/main/README.md#module-1-introduction-to-information-design-and-web-development))
+ [Module 1](https://github.com/peterktsitsi/web-development-and-information-design/)
 
 ---
 
@@ -413,3 +413,9 @@ Download excalidraw.
 #### Your First Learning System: Creating a Programming reference sheet.
 
 Because reference sheets have typically consisted of a scatter list of related information, learning programming has become *tidious*. If I have to navigate to another page just to see how loops are structured, I'm going to lose it.<br>
+
+The system you are going to use is like a box model, with the outer box holding the concept, within the boxes are examples of these concepts then rules and other **Language Inclusive** concepts.
+
+*here's a visual example*
+
+![box_learning_system](/public/learning%20system.jpg)
