@@ -21,12 +21,12 @@ It shows you how the computer network protocol works. It's simple but it teaches
 
 For a more detailed explanation got to: [http demo](https://github.com/peterktsitsi/simple-backend-app)
 
-![httpdemo](/public/httpdemo.jpg)
+![httpdemo](/httpdemo.jpg)
 
 ### Project 2: Save file to local.
 
 A simple html site that use the JavaScript to save a file on your computer.<br>
-github page coming tommorow
+For a more detailed explanation got to: [FIle-Saver](https://github.com/peterktsitsi/File-saving-js)
 
 ![filesaver](/jsfilewrite.jpg)
 ...
