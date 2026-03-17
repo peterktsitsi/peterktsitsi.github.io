@@ -20,4 +20,4 @@ Miki is a singer, in the music video of the song, *Stay with me*, that i want to
 
 *Reference Imamages*
 
-![4 seasons art jpg](/public/4seasoms.jpg)
+![4 seasons art jpg](/4seasoms.jpg)

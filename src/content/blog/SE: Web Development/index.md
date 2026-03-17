@@ -404,7 +404,7 @@ An example:
   
 *say hello to friction*
 
-![stressed_out](/public/oppenheimer-cillian-murphy.gif)
+![stressed_out](/oppenheimer-cillian-murphy.gif)
 
 It should be alot easier than this right?<br>
 Why, yes, yes it should, and a **Learning System** can help with that which we will learn... now using: **The Infinite Canvas**.<br>
@@ -418,4 +418,4 @@ The system you are going to use is like a box model, with the outer box holding 
 
 *here's a visual example*
 
-![box_learning_system](/public/learning%20system.jpg)
+![box_learning_system](/learning%20system.jpg)

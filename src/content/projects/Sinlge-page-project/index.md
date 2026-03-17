@@ -28,5 +28,5 @@ For a more detailed explanation got to: [http demo](https://github.com/peterktsi
 A simple html site that use the JavaScript to save a file on your computer.<br>
 github page coming tommorow
 
-![filesaver](/public/jsfilewrite.jpg)
+![filesaver](/jsfilewrite.jpg)
 ...
