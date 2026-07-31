@@ -13,7 +13,7 @@ tags:
 summary
 acknowledgement
 
-## Month 1 theme: Smile with your eyes.
+## Month 1 theme: Smile with your eyes
 
 4 paintings of Miki Mathubara, for the first four weeks of the year, in the style of Alphonse Mucha, 4 seasons.<br>
 Miki is a singer, in the music video of the song, *Stay with me*, that i want to turn into 4 frames.
@@ -21,3 +21,5 @@ Miki is a singer, in the music video of the song, *Stay with me*, that i want to
 *Reference Imamages*
 
 ![4 seasons art jpg](/4seasoms.jpg)
+
+## Month 2 theme: Red is the color of pain
