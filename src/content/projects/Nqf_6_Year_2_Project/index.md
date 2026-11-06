@@ -1,6 +1,6 @@
 ---
-title: "Live Information Systems"
-summary: "Live, database and applications connected to them"
+title: "YEAR 2: Live Information Systems"
+summary: "Live database and applications connected to them"
 date: "Oct 05 2026"
 draft: false
 tags:
