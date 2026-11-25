@@ -8,9 +8,8 @@ tags:
 - Education certification
 ---
 
-- **Dimploma in information technology**
+- **Information technology**
   - modeled after unisa
-  - Nqf 6
   - capstone project November 2026
 
 | Year       | Model 1 — Information & Use                                                                                                             | Model 2 — Interaction & Delivery                                                                                                            | Model 3 — Data & Management                                                                                               | Yearly Outcome                                                        |

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Raa Community Library</title>
+<meta name="description" content="Raa Community Library: books, story time, study space and community events for everyone in Raa.">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF8EA;--ink:#2B2350;--hover:#C2410C;--numbg:#2B2350;--numfg:#FFFFFF;--accent:#C2410C;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1B1740;--ink:#FFF8EA;--hover:#FFC93C;--numbg:#FFC93C;--numfg:#2B2350}}
+:root[data-theme="dark"]{--bg:#1B1740;--ink:#FFF8EA;--hover:#FFC93C;--numbg:#FFC93C;--numfg:#2B2350}
+html{scroll-padding-top:env(safe-area-inset-top,0px);color-scheme:light dark}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Nunito',system-ui,-apple-system,'Segoe UI',sans-serif;font-size:clamp(1rem,.95rem + .25vw,1.15rem);line-height:1.6}
+h1,h2,h3{font-family:'Fredoka','Trebuchet MS',system-ui,sans-serif;line-height:1.1;margin:0}
+p{margin:0}
+a{color:var(--ink)}a:hover{color:var(--hover)}
+a:focus-visible{outline:3px solid var(--hover);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:#FFC93C;color:#2B2350;padding:10px 16px;border-radius:8px;z-index:5}
+.skip:focus{left:8px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
+.pat{height:16px;background:repeating-linear-gradient(90deg,#C2410C 0 40px,#FFC93C 40px 80px,#2E9E5B 80px 120px,#1FA3A8 120px 160px,#D6336C 160px 200px)}
+.nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 24px;padding:16px 0}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;font-family:'Fredoka',sans-serif;font-size:1.5rem;font-weight:600;line-height:1.1}
+.links{display:flex;flex-wrap:wrap;align-items:center;gap:4px}
+.links a{text-decoration:none;font-weight:700;padding:10px 14px;min-height:44px;display:inline-flex;align-items:center}
+.btn,.links a.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:700;padding:12px 26px;border-radius:999px;min-height:48px;background:var(--accent);color:#fff}
+.btn:hover,.links a.btn:hover{color:#fff;filter:brightness(1.12)}
+.btn.sun,.links a.btn.sun{background:#FFC93C;color:#2B2350}
+.btn.sun:hover{color:#2B2350}
+.hero{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));align-items:center;padding-top:32px;padding-bottom:clamp(40px,8vw,72px)}
+.hero h1{font-size:clamp(2.2rem,1.4rem + 4vw,4rem);font-weight:700}
+.pill{display:inline-block;margin-bottom:12px;background:#FFC93C;color:#2B2350;padding:6px 16px;border-radius:999px;font-weight:700}
+.hero svg{width:100%;max-width:460px;height:auto;justify-self:center}
+.sec{padding:clamp(48px,8vw,72px) 0}
+.sec h2{font-size:clamp(1.9rem,1.3rem + 2.5vw,2.75rem);text-align:center;font-weight:600}
+.lead{text-align:center;margin:12px auto 40px;max-width:560px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
+.card{border-radius:28px;padding:clamp(20px,3vw,28px);color:#2B2350}
+.card h3{font-size:1.75rem;font-weight:600}
+.card p{margin-top:10px}
+.badge{width:64px;height:64px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.tag{display:inline-block;margin-bottom:10px;padding:4px 14px;border-radius:999px;font-weight:700}
+.events{background:#2B2350;color:#fff}
+.events h2{color:#FFC93C}
+.step{display:flex;gap:18px;align-items:flex-start}
+.step h3{font-size:1.6rem;font-weight:600}
+.step p{margin-top:8px}
+.num{width:56px;height:56px;border-radius:50%;background:var(--numbg);color:var(--numfg);font-family:'Fredoka',sans-serif;font-size:1.75rem;display:flex;align-items:center;justify-content:center;flex:none}
+.corner{background:#D6336C;color:#fff;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;padding:clamp(24px,5vw,40px)}
+.corner h2{font-size:clamp(1.8rem,1.3rem + 2vw,2.5rem);text-align:left;color:#fff}
+.visit{background:#FFE08A;color:#2B2350}
+.visit .in{display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.visit h2{text-align:left}
+footer{padding-top:28px;padding-bottom:36px;display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
+@media (max-width:640px){.nav{justify-content:center}.brand{font-size:1.3rem}.links{justify-content:center}.corner .btn{width:100%}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="pat"></div>
+<div class="wrap">
+<header class="nav">
+<a href="#top" class="brand">
+<svg width="46" height="46" viewBox="0 0 46 46" aria-hidden="true"><circle cx="23" cy="23" r="23" fill="#FFC93C"/><path d="M12 14h10v20H12zM24 14h10v20H24z" fill="#C2410C"/><path d="M15 19h4M15 24h4M27 19h4M27 24h4" stroke="#FFF8EA" stroke-width="2" stroke-linecap="round"/></svg>
+<span>Raa Community<br>Library</span>
+</a>
+<nav class="links" aria-label="Main">
+<a href="#top">Home</a><a href="#offer">Books</a><a href="#events">Events</a><a href="#join">Join</a><a href="#visit">Visit us</a>
+<a class="btn" href="#join">Join the library</a>
+</nav>
+</header>
+</div>
+
+<main id="main">
+<section id="top" class="wrap hero">
+<div>
+<p class="pill">Dumelang! Welcome</p>
+<h1>A library for every child, parent and gogo in Raa</h1>
+<p style="max-width:540px;margin:20px 0 28px">Come in to read, borrow, learn and meet your neighbours. Our doors are open to all ages, and every book is free to explore.</p>
+<div style="display:flex;flex-wrap:wrap;gap:14px">
+<a class="btn" href="#events">See what’s on</a>
+<a class="btn sun" href="#visit">Plan your visit</a>
+</div>
+</div>
+<svg viewBox="0 0 420 380" role="img" aria-label="Illustration of a sun, an acacia tree and a stack of colourful books">
+<circle cx="330" cy="82" r="46" fill="#FFC93C"/>
+<path d="M330 12v16M330 136v16M260 82h16M384 82h16M280 32l11 11M369 121l11 11M280 132l11-11M369 43l11-11" stroke="#FFC93C" stroke-width="8" stroke-linecap="round"/>
+<path d="M0 320Q110 270 230 312T420 300V380H0Z" fill="#2E9E5B"/>
+<path d="M104 310l8-120h12l8 120z" fill="#7A4A21"/>
+<ellipse cx="118" cy="186" rx="92" ry="26" fill="#1F7A45"/><ellipse cx="86" cy="170" rx="48" ry="17" fill="#2E9E5B"/><ellipse cx="156" cy="174" rx="40" ry="15" fill="#2E9E5B"/>
+<rect x="206" y="300" width="160" height="32" rx="5" fill="#D6336C"/>
+<rect x="218" y="268" width="136" height="32" rx="5" fill="#1FA3A8"/>
+<rect x="212" y="236" width="146" height="32" rx="5" fill="#FFC93C" transform="rotate(-3 285 252)"/>
+<path d="M222 316h120M232 284h98M226 252h110" stroke="#FFF8EA" stroke-width="4" stroke-linecap="round"/>
+</svg>
+</section>
+
+<div class="pat"></div>
+
+<section id="offer" class="wrap sec">
+<h2>What you’ll find inside</h2>
+<p class="lead">Something for every reader in the family.</p>
+<div class="grid">
+<div class="card" style="background:#FFE08A"><div class="badge"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#2B2350" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11v21H4zM19 7h11v21H19z"/></svg></div><h3>Books to borrow</h3><p>Picture books, school readers, stories and more. Borrow them and bring them back when you’re done.</p></div>
+<div class="card" style="background:#FFC9A8"><div class="badge"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#2B2350" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 4l4 9 10 1-7.5 6.5L26 30l-9-5-9 5 2.5-9.5L3 14l10-1z"/></svg></div><h3>Story time</h3><p>Songs, stories and play for our littlest readers, with a grown-up close by.</p></div>
+<div class="card" style="background:#BFE8C8"><div class="badge"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#2B2350" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 28l3-9L24 4l6 6L15 25zM21 7l6 6"/></svg></div><h3>Study space</h3><p>A quiet place for homework, reading and learning something new.</p></div>
+<div class="card" style="background:#B5E6E8"><div class="badge"><svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#2B2350" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="11" r="5"/><circle cx="25" cy="13" r="4"/><path d="M3 28c0-6 4-9 9-9s9 3 9 9M22 20c5 0 8 3 8 8"/></svg></div><h3>Community notice board</h3><p>News, workshops and village events, all in one place for Raa.</p></div>
+</div>
+</section>
+
+<section id="events" class="events">
+<div class="wrap sec">
+<h2>What’s on at the library</h2>
+<p class="lead">Come along and bring a friend.</p>
+<div class="grid">
+<div class="card" style="background:#FFF8EA"><span class="tag" style="background:#FFC93C">[DATE AND TIME]</span><h3>Story time for little readers</h3><p>[SHORT DESCRIPTION OF THE EVENT]</p></div>
+<div class="card" style="background:#FFF8EA"><span class="tag" style="background:#BFE8C8">[DATE AND TIME]</span><h3>Homework help afternoon</h3><p>[SHORT DESCRIPTION OF THE EVENT]</p></div>
+<div class="card" style="background:#FFF8EA"><span class="tag" style="background:#FFC9A8">[DATE AND TIME]</span><h3>Community reading circle</h3><p>[SHORT DESCRIPTION OF THE EVENT]</p></div>
+</div>
+</div>
+</section>
+
+<section id="join" class="wrap sec">
+<h2>Join in three easy steps</h2>
+<div class="grid" style="margin-top:40px">
+<div class="step"><div class="num">1</div><div><h3>Register at the desk</h3><p>Tell our librarian your name and you’ll get your own member ID.</p></div></div>
+<div class="step"><div class="num">2</div><div><h3>Scan in at the gate</h3><p>Use your ID when you arrive and when you leave, so we know who’s inside.</p></div></div>
+<div class="step"><div class="num">3</div><div><h3>Borrow and enjoy</h3><p>Pick your books, ask the librarian to check them out, and read at home.</p></div></div>
+</div>
+</section>
+
+<section class="wrap" style="padding-bottom:clamp(48px,8vw,72px)">
+<div class="card corner">
+<div style="max-width:640px"><h2>Little Readers’ Corner</h2><p>A bright, safe space with picture books, puzzles and cushions for children to explore.</p></div>
+<a class="btn sun" href="#visit">Bring the kids</a>
+</div>
+</section>
+
+<section id="visit" class="visit">
+<div class="wrap sec in">
+<div>
+<h2>Visit us</h2>
+<p style="margin-top:16px">Raa village, about 1 km west of Sun City, North West Province.</p>
+</div>
+<div class="card" style="background:#fff">
+<h3>Opening hours</h3>
+<p style="margin-bottom:20px">[OPENING DAYS AND HOURS]</p>
+<h3>Get in touch</h3>
+<p>Phone: [PHONE NUMBER]<br>Email: [EMAIL ADDRESS]</p>
+</div>
+</div>
+</section>
+</main>
+
+<div class="pat"></div>
+<footer class="wrap">
+<span style="font-family:'Fredoka',sans-serif;font-weight:600">Raa Community Library</span>
+<span>Open to everyone in Raa and nearby.</span>
+</footer>
+</body>
+</html>

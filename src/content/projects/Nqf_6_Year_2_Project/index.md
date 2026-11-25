@@ -2,7 +2,7 @@
 title: "YEAR 2: Live Information Systems"
 summary: "Live database and applications connected to them"
 date: "Oct 05 2026"
-draft: false
+draft: true
 tags:
 - API REST
 - Networking HTTP 
