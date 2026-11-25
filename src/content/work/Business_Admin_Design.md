@@ -16,4 +16,4 @@ relationships.
 licensing, network security and online payments.
 - Prepared audit reports, presented proposed solutions and delivered projects to client specifications.
 - Implemented practical solutions including computerand printer setups, social media campaigns, menus, tap-to-pay, refurbished Linux
-PCs, home camera networks, Wi-Fi for rental properties, POS systems and websites
+PCs, home camera networks, Wi-Fi for rental properties, POS systems and websites.

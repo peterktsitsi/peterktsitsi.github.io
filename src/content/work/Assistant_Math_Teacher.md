@@ -1,5 +1,5 @@
 ---
-company: "Thethe Secondary School
+company: "The Secondary School"
 role: "Assistant Math Teach"
 dateStart: "01/02/2017"
 dateEnd: "12/04/2017"
